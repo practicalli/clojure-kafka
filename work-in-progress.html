@@ -1,0 +1,600 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Work in progress - messy · Kafka and Clojure - immutable event stream applicationss</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-exercises/exercises.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-quizzes/quizzes.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-callouts/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="video-discussions.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://kafka.apache.org/" target="_blank" class="custom-link">Kafka</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://practicalli.github.io" target="_blank" class="custom-link">Practical.li</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="introduction/">
+            
+                <a href="introduction/">
+            
+                    
+                    Kafka and Clojure
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="troubleshooting/index.md">
+            
+                <span>
+            
+                    
+                    Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="kafka-streams/">
+            
+                <a href="kafka-streams/">
+            
+                    
+                    kafka streams
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="reference/">
+            
+                <a href="reference/">
+            
+                    
+                    Reference
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="reference/topology.html">
+            
+                <a href="reference/topology.html">
+            
+                    
+                    Topology
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="contributors.md">
+            
+                <span>
+            
+                    
+                    Contributors
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="introduction/workshop-conventions.html">
+            
+                <a href="introduction/workshop-conventions.html">
+            
+                    
+                    Workshop conventions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="introduction/additional-resources.html">
+            
+                <a href="introduction/additional-resources.html">
+            
+                    
+                    Additional resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="video-discussions.html">
+            
+                <a href="video-discussions.html">
+            
+                    
+                    Video discussions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="work-in-progress.html">
+            
+                <a href="work-in-progress.html">
+            
+                    
+                    Work in progress - messy
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Work in progress - messy</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="work-in-progress">Work in progress</h1>
+<div class="panel panel-warning"><div class="panel-heading"><h3 class="panel-title" id="very-messy---just-a-brain-dump"><i class="fa fa-bookmark"></i> Very messy - just a brain dump</h3></div><div class="panel-body"></div></div>
+<p> I&#x2019;ve read the first two chapters and yes it is high level at the moment. However I&#x2019;m enjoying it since the sections are small and focused. I think it will start getting more practical down the line.
+Being new to Kafka, I&#x2019;ve learnt some valuable stuff about its offering, architecture and its nomenclature.
+@Amr Gawish when are we doing the next meet? Think we should bump up the pace to reading 2 sections a week. Will help us get to the practical quicker</p>
+<p>Amr Gawish [12:22 PM]
+Good point @Gurps Bassi, but people might be busy
+Is everyone in @here able to read 2 sections a week of articles, I would not argue against diversifying our sources as we can talk about differences when we have an online gathering</p>
+<p>Gurps Bassi [12:45 PM]
+yeh it is important we stick to the same pace to make sure everyone gets the best out of it. Maybe set a target of 2 sections and then check to see before the e-meet where everyone has got to and if a lot of people haven&#x2019;t managed to do 2, we drop the discussion to only 1.</p>
+<h2 id="schedule-from-paid-online-kafka-course">Schedule from paid online kafka course</h2>
+<p><a href="https://www.safaribooksonline.com/live-training/courses/kafka-fundamentals/0636920183686/#instructors" target="_blank">https://www.safaribooksonline.com/live-training/courses/kafka-fundamentals/0636920183686/#instructors</a></p>
+<p>Apache Kafka is an increasingly popular foundation for large-scale software systems. In this course, you&#x2019;ll learn how to use Kafka to publish and subscribe to data streams, and how Kafka can be used to solve various use cases. You&#x2019;ll also learn how to install and configure a Kafka cluster, and how to use the Kafka API&#x2019;s to produce and consume data. We&#x2019;ll also discuss how to connect Kafka to technologies for stream processing, log aggregation, and other related big-data technologies.</p>
+<p>What you&apos;ll learn-and how you can apply it
+Why Kafka is scalable
+How to interact with Kafka
+Kafka&#x2019;s role in enterprise architectures
+How to design Kafka topics and partitions
+Participants will be able to:</p>
+<p>Install and configure Kafka
+Publish data to Kafka
+Subscribe to data from Kafka
+Design Kafka topics and partitions
+This training course is for you because...
+You are a software architect with experience building enterprise systems, and you need to ensure that your systems are scalable and fault tolerant
+You are a software developer with Java experience, and you need to build software on top of Kafka
+Prerequisites</p>
+<p>Basic knowledge of Java
+A GitHub link to a description for installations will be provided.</p>
+<p>Recommended Preparation:</p>
+<p>Learning Modern Java: A Crash Course Using Java 8</p>
+<p>Docker: Up &amp; Running, Chapter 3. Installing Docker</p>
+<p>Introduction to Apache Kafka</p>
+<p>About your instructor
+Petter Graff is the co-founder of SciSpike, helping Fortune-500 companies reach their potential through training, consulting and custom development. Petter has extensive experience building large scale software systems for many of the Fortune-500 companies. Petter was the main architect behind the open source project Yaktor (yaktor.io) which relies on Kafka to deliver messages across large clusters of computation nodes. Yaktor and Kafka has been used by various companies to build systems processing millions of messages per second. Petter is also a frequent speaker at various conferences and an O&#x2019;Reilly author (check out his Video Series on Design Patterns in Java).</p>
+<p>Schedule
+The timeframes are only estimates and may vary according to how the class is progressing</p>
+<p>DAY 1
+Introduction (Lecture ~ 20 min)</p>
+<p>Who are we
+What is Kafka
+Explain first lab
+Verify that everything is installed and working (Lab ~ 20 min)</p>
+<p>Install Kafka through Docker
+Run a simple example of Kafka
+Introduction to Kafka (Lecture ~ 30 min)</p>
+<p>Kafka under the hood
+What is a topic
+What is a partition
+What is a producer
+What is a consumer
+Creating a topic and pass a message (Lab ~30 min)</p>
+<p>Create a topic
+Run a simple consumer
+Run a simple producer
+Dissecting the first example (Lecture/Discussion ~ 30 min)</p>
+<p>Walkthrough of the first lab
+Question and answers
+Design of Kafka topics and partitions (Lecture ~ 30 min)</p>
+<p>Case study
+How to select topics
+How to select partitions
+Exercise: Designing topics and partitions (Group Project ~ 20 min)</p>
+<ul>
+<li>Design topics and partitions</li>
+</ul>
+<p>DAY 2
+Evaluation of the designs and suggested solutions (Discussion ~20 min)</p>
+<p>Discussion of the suggested solution(s)
+Recommended design of case study
+Implement Topics and Partitions for case study (Lab ~30 min)</p>
+<p>Define a topic and partition in Kafka
+Create a consumer and producer
+Run a test script
+Scaling Kafka (Lecture ~30 min)</p>
+<p>Kafka Brokers
+Kafka Clusters
+Cluster mirroring
+Consumer groups
+Streaming APIs for Kafka (Lecture ~20 min)</p>
+<p>What is streaming
+Why use streams
+Programming to streams
+Example streams using Spark
+Streaming and IoT Case Study (Lab ~30 min)</p>
+<p>Consume a stream from Kafka
+Build a Spark application over the Kafka stream
+Kafka Administration and Integration (Lecture ~30 Min)</p>
+<p>Integration with Big Data tools (Storm, Spark, Hadoop)
+Kafka Connect
+Certified Kafka connectors
+Kafka administration
+Kafka monitoring
+Security</p>
+<p>Amr Gawish [9:41 PM]
+Thanks for those who attended the session today, it was really interesting and very useful.
+Special thanks to @Gurps Bassi for his amazing mind map about his Kafka and opening up the conversation with his findings around Zero Copying (<a href="https://www.ibm.com/developerworks/library/j-zerocopy/index.html" target="_blank">https://www.ibm.com/developerworks/library/j-zerocopy/index.html</a>) and backpushing
+Thanks to @Jeremie for his encouragement and his thoughts around the application using IoT devices
+Big thanks to @jr0cket for scaring all of us about the amount of transaction he works with everyday and his insights on those big machinery and how Kafka could be of benefit to them.
+ibm.com
+Efficient data transfer through zero copy
+This article explains how you can improve the performance of I/O-intensive Java applications running on Linux and UNIX platforms through a technique called zero copy. Zero copy lets you avoid redundant data copies between intermediate buffers and reduces the number of context switches between user space and kernel space.</p>
+<p>Amr Gawish [10:21 PM]
+@channel Actions for the next meeting:
+<em>Meeting Date:</em> 20th of June 2018, from 9 to 10pm
+<em>Task:</em> <a href="http://cloudurable.com/blog/kafka-architecture/index.html" target="_blank">http://cloudurable.com/blog/kafka-architecture/index.html</a>
+<em>Optional Hands on:</em> Thinking about how you can create a small slack chatbot to put messaged into Kafka topics to be utilised later
+cloudurable.com</p>
+<p>Kafka Architecture
+Kafka Architecture: This article discusses the structure of Kafka. Kafka consists of Records, Topics, Consumers, Producers, Brokers, Logs, Partitions, and Clusters. Records can have key, value and timestamp. Kafka Records are immutable. This article covers the structure of and purpose of topics, log, partition, segments, brokers, producers, and consumers.</p>
+<p>kankemwa Ishaku [9:42 AM]
+@Amr Gawish Just joined unfortunately and went through the previous chats. Thanks for running the Kafka group. Is the whole of -&gt;  <a href="http://cloudurable.com/blog/kafka-tutorial-v1/index.html" target="_blank">http://cloudurable.com/blog/kafka-tutorial-v1/index.html</a> and <a href="http://cloudurable.com/blog/kafka-architecture/index.html" target="_blank">http://cloudurable.com/blog/kafka-architecture/index.html</a> all you have covered in the group so that I can catch up.
+cloudurable.com
+Kafka Tutorial with Examples
+<a href="http://cloudurable.com/blog/kafka-tutorial-v1/index.html" target="_blank">http://cloudurable.com/blog/kafka-tutorial-v1/index.html</a>
+Cloudurable provides AWS Cassandra and Kafka support, Cassandra consulting, Cassandra training, and Kafka consulting. Our focus is on successful deployments of Cassandra and Kafka in AWS EC2. We work with the full AWS stack including Lambdas, EC2, EBS, CloudFormation, CloudWatch and more.
+cloudurable.com
+Kafka Architecture
+<a href="http://cloudurable.com/blog/kafka-architecture/index.html" target="_blank">http://cloudurable.com/blog/kafka-architecture/index.html</a>
+Kafka Architecture: This article discusses the structure of Kafka. Kafka consists of Records, Topics, Consumers, Producers, Brokers, Logs, Partitions, and Clusters. Records can have key, value and timestamp. Kafka Records are immutable. This article covers the structure of and purpose of topics, log, partition, segments, brokers, producers, and consumers.</p>
+<p>(Amr Gawish) [9:45 AM]
+Hi @kanke, welcome to the Kafka group.
+This was our first meeting as we covered only part one of the tutorial (<a href="http://cloudurable.com/blog/what-is-kafka/index.html" target="_blank">http://cloudurable.com/blog/what-is-kafka/index.html</a>), the meeting points are above the pinned message to give you an idea what did we talk about during that online meeting
+<a href="http://cloudurable.com/blog/what-is-kafka/index.html" target="_blank">http://cloudurable.com/blog/what-is-kafka/index.html</a></p>
+ <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="video-discussions.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Video discussions">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Work in progress - messy","level":"1.8","depth":1,"previous":{"title":"Video discussions","level":"1.7","depth":1,"path":"video-discussions.md","ref":"video-discussions.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","codeblock-disable-glossary","disqus","gist","exercises","quizzes","toolbar","ga","callouts","sectionx","klipse","youtube"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"kafka-and-clojure-practicalli"},"callouts":{"showTypeInHeader":false,"star":{"alert":"warning","picto":"fa-star"}},"gist":{},"youtube":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"quizzes":{},"sectionx":{"tag":"b"},"highlight":{},"ga":{"configuration":"auto","token":"UA-28030709-9"},"klipse":{"myConfigKey":"it's the default value"},"exercises":{},"toolbar":{"buttons":[{"label":"Gitter Chat","icon":"fa fa-comments-o","url":"https://gitter.im/practicalli/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"},{"label":"GitHub","icon":"fa fa-github","url":"https://github.com/practicalli"},{"label":"Search page title on StackOverflow","icon":"fa fa-stack-overflow","url":"http://stackoverflow.com/search?q={{title}}"}]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"host":"practical.li"},"title":"Kafka and Clojure - immutable event stream applicationss","links":{"sidebar":{"Kafka":"https://kafka.apache.org/","Practical.li":"https://practicalli.github.io"}},"gitbook":">=2.0.0","description":"Building applications based on immutable event streams using Kafka and Clojure to manage unreasonably large data."},"file":{"path":"work-in-progress.md","mtime":"2021-02-09T23:44:25.488Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-10T01:01:11.406Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook-plugin-exercises/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+    
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-codeblock-disable-glossary/disable-glossary.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-gist/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-exercises/ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-exercises/ace/theme-tomorrow.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-exercises/ace/mode-javascript.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-exercises/exercises.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-quizzes/quizzes.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-toolbar/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+
+    </body>
+</html>
+
