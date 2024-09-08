@@ -11,7 +11,7 @@
 
 ## Book Overview
 
-Building Clojure services with Kafka, using Clojure CLI and a wide range of community tools for a REPL focused workflow.
+Building immutable event services with Kafka and the Clojure programming language, using Clojure CLI and a wide range of community tools for a REPL focused workflow.
 
 The guide uses [Practicalli Clojure CLI Config](https://practical.li/clojure/clojure-cli/practicalli-config/) to provide aliases to run over 30 community tools that complement the workflow, including a REPL Reloaded workflow for a highly interactive and effective development experience.
 
